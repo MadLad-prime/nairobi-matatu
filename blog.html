@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kituo cha Matatu - Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- For Icons (e.g., close button) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="nav-logo animate-on-load" style="animation-name: fadeInLeft;">KCM</a>
+            <div class="nav-links-center">
+                <a href="blog.html" data-page="blog" class="nav-link-active animate-on-load" style="animation-name: fadeInDown; animation-delay: 0.2s;">Blog</a>
+                <a href="gallery.html" data-page="gallery" class="animate-on-load" style="animation-name: fadeInDown; animation-delay: 0.4s;">Gallery</a>
+                <a href="merch.html" data-page="merch" class="animate-on-load" style="animation-name: fadeInDown; animation-delay: 0.6s;">Merch</a>
+            </div>
+            <a href="booking.html" data-page="booking" class="nav-cta animate-on-load" style="animation-name: fadeInRight; animation-delay: 0.2s;">Book Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog-hero" class="page-hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="animate-on-load hero-title" style="animation-name: fadeInUp; animation-delay: 0.5s;">Matatu Chronicles</h1>
+                <p class="page-hero-subtitle animate-on-load" style="animation-name: fadeInUp; animation-delay: 0.7s;">Stories, Insights, and the Pulse of the Streets</p>
+            </div>
+        </section>
+
+        <section id="blog-showcase" class="content-section">
+            <h2 class="animate-on-scroll" data-animation="fadeInUp-scroll">From Our Pavement Pundits</h2>
+            <div class="blog-cards-grid">
+                <!-- Blog Card 1 -->
+                <div class="blog-preview-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.1s" data-blog-id="post1">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1589996408190-91c99c215605?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0YXR1JTIwYXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="The Canvas of the Commute">
+                        <span class="card-category">Art & Design</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">The Ever-Evolving Canvas of the Commute</h3>
+                        <p class="card-excerpt">Matatus are more than transport; they are rolling art galleries. We delve into the latest trends and timeless motifs that define their iconic look...</p>
+                        <span class="card-date">October 26, 2023</span>
+                        <button class="card-read-more">Read Full Story</button>
+                    </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="blog-preview-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.2s" data-blog-id="post2">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1598387999029-589c73239ddc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWF0YXR1JTIwbXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Beats of the Street">
+                        <span class="card-category">Music & Culture</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Nganya Beats: More Than Just a Soundtrack</h3>
+                        <p class="card-excerpt">The sound systems in Manyangas are legendary. Explore how music shapes the matatu experience and reflects Nairobi's vibrant soundscape...</p>
+                        <span class="card-date">October 22, 2023</span>
+                        <button class="card-read-more">Read Full Story</button>
+                    </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="blog-preview-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.3s" data-blog-id="post3">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1561587959-2c109874f344?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWF0YXR1JTIwZHJpdmVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="The Unseen Crew">
+                         <span class="card-category">People & Stories</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Kings of the Road: A Day with a Matatu Crew</h3>
+                        <p class="card-excerpt">Meet the drivers and conductors, the unsung heroes who navigate the city's arteries with skill and unmatched street smarts. Their stories, their challenges...</p>
+                        <span class="card-date">October 18, 2023</span>
+                        <button class="card-read-more">Read Full Story</button>
+                    </div>
+                </div>
+
+                <!-- Blog Card 4 -->
+                <div class="blog-preview-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.15s" data-blog-id="post4">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1604828037040-a4b614c9f0aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5haXJvYmklMjBjaXR5JTIwbGlnaHRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Matatus by Night">
+                        <span class="card-category">City Life</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Nairobi After Dark: The Matatu Night Shift</h3>
+                        <p class="card-excerpt">When the sun sets, a different kind of energy takes over the matatu routes. A look into the nocturnal life of Nairobi's iconic transport...</p>
+                        <span class="card-date">October 15, 2023</span>
+                        <button class="card-read-more">Read Full Story</button>
+                    </div>
+                </div>
+
+                 <!-- Blog Card 5 -->
+                <div class="blog-preview-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.25s" data-blog-id="post5">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1631251094179-68081ef9a984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhZmZpdGklMjBhcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Graffiti Philosophy">
+                         <span class="card-category">Art & Design</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Words on Wheels: The Philosophy of Matatu Slogans</h3>
+                        <p class="card-excerpt">From witty proverbs to pop culture references, the text adorning matatus is a unique form of public discourse. What messages are they sending?...</p>
+                        <span class="card-date">October 12, 2023</span>
+                        <button class="card-read-more">Read Full Story</button>
+                    </div>
+                </div>
+
+                <!-- Blog Card 6 -->
+                <div class="blog-preview-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.35s" data-blog-id="post6">
+                    <div class="card-image-container">
+                        <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtlbnlhJTIwY29tbXVuaXR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Community on Wheels">
+                         <span class="card-category">Community</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">More Than A Ride: Matatus as Community Hubs</h3>
+                        <p class="card-excerpt">They're not just for commuting. Matatus often foster a sense of community, shared experiences, and spontaneous conversations. Exploring this social fabric...</p>
+                        <span class="card-date">October 9, 2023</span>
+                        <button class="card-read-more">Read Full Story</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="blog-lightbox" class="lightbox-modal" aria-hidden="true">
+        <div class="lightbox-overlay" data-close-lightbox></div>
+        <div class="lightbox-content-wrapper">
+            <button class="lightbox-close" data-close-lightbox aria-label="Close modal">×</button>
+            <div class="lightbox-content-scrollable">
+                <!-- Full blog post content will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Full Blog Post Content (to be cloned into lightbox) -->
+    <div id="blog-post-contents" style="display:none;">
+        <div id="post1-content">
+            <img src="https://images.unsplash.com/photo-1589996408190-91c99c215605?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0YXR1JTIwYXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=70" alt="The Canvas of the Commute" class="full-post-image">
+            <h1 class="full-post-title">The Ever-Evolving Canvas of the Commute</h1>
+            <p class="full-post-meta">By Matatu Enthusiast | October 26, 2023 | Category: Art & Design</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Matatus are more than transport; they are rolling art galleries. We delve into the latest trends and timeless motifs that define their iconic look. The graffiti, the custom paint jobs, the elaborate sound systems, and the dazzling lights all contribute to a unique mobile art form that is quintessentially Kenyan.</p>
+            <p>Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+        </div>
+        <div id="post2-content">
+            <img src="https://images.unsplash.com/photo-1598387999029-589c73239ddc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWF0YXR1JTIwbXVzaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=70" alt="Beats of the Street" class="full-post-image">
+            <h1 class="full-post-title">Nganya Beats: More Than Just a Soundtrack</h1>
+            <p class="full-post-meta">By DJ Mzito | October 22, 2023 | Category: Music & Culture</p>
+            <p>Step into any Nganya, and you're immediately enveloped in a world of sound. The bass thumps, the melodies soar, and the rhythms dictate the city's pulse. The sound systems in Manyangas are legendary, often rivaling those found in nightclubs. This isn't just background noise; it's an integral part of the journey, a curated experience that can uplift, energize, or even transport you to another place entirely.</p>
+            <p>We explore how DJs and matatu crews carefully select playlists that cater to their clientele and the time of day. From the latest Bongo Flava and Gengetone hits to classic Rhumba and international bangers, the music in matatus is a living, breathing reflection of Nairobi's diverse and dynamic soundscape. It’s a shared experience, a communal vibe that turns a simple commute into a micro-concert on wheels.</p>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta.</p>
+        </div>
+        <!-- Add content for post3, post4, post5, post6 similarly -->
+        <div id="post3-content">
+             <img src="https://images.unsplash.com/photo-1561587959-2c109874f344?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWF0YXR1JTIwZHJpdmVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=70" alt="Kings of the Road" class="full-post-image">
+            <h1 class="full-post-title">Kings of the Road: A Day with a Matatu Crew</h1>
+             <p class="full-post-meta">By Street Journalist | October 18, 2023 | Category: People & Stories</p>
+            <p>They are the heart and soul of the matatu industry – the drivers ('pilots') and conductors ('makangas' or 'manambas'). These individuals are more than just staff; they are entrepreneurs, navigators, entertainers, and sometimes, even counselors. Their day starts before dawn and often ends late into the night, requiring immense stamina, quick thinking, and an unparalleled understanding of Nairobi's complex web of streets and traffic patterns.</p>
+            <p>This piece offers a glimpse into their world. We ride along, listen to their stories, witness their interactions with passengers, and understand the challenges they face – from navigating notorious traffic jams to ensuring passenger safety and dealing with the daily pressures of the business. Their skill, resilience, and unique brand of street smarts are what keep the city moving, one vibrant, chaotic, and unforgettable ride at a time.</p>
+            <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+        </div>
+        <div id="post4-content">
+            <img src="https://images.unsplash.com/photo-1604828037040-a4b614c9f0aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5haXJvYmklMjBjaXR5JTIwbGlnaHRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=70" alt="Matatus by Night" class="full-post-image">
+            <h1 class="full-post-title">Nairobi After Dark: The Matatu Night Shift</h1>
+            <p class="full-post-meta">By The Night Owl | October 15, 2023 | Category: City Life</p>
+            <p>As dusk settles over Nairobi, the city transforms. The rhythm changes, and so does the matatu scene. The night shift is a different beast – fewer vehicles, perhaps, but a unique clientele and an atmosphere charged with the energy of the evening. Matatus operating after dark often cater to late-night workers, revelers heading home, or early birds starting their pre-dawn journeys.</p>
+            <p>The glow of their custom lights cuts through the darkness, making them moving beacons in the urban landscape. Security becomes a heightened concern, and crews often develop strong bonds with their regular night passengers. This exploration delves into the nocturnal operations of matatus, highlighting the unique challenges, stories, and the essential service they provide when most of the city sleeps. It’s a testament to the 24/7 pulse of Nairobi's public transport.</p>
+            <p>Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesuada. Proin eget tortor risus.</p>
+        </div>
+        <div id="post5-content">
+             <img src="https://images.unsplash.com/photo-1631251094179-68081ef9a984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhZmZpdGklMjBhcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=70" alt="Graffiti Philosophy" class="full-post-image">
+            <h1 class="full-post-title">Words on Wheels: The Philosophy of Matatu Slogans</h1>
+             <p class="full-post-meta">By The Linguist | October 12, 2023 | Category: Art & Design</p>
+            <p>Beyond the vibrant imagery, matatus are also canvases for words. Slogans, proverbs, song lyrics, movie titles, and religious verses adorn their bodies, windows, and interiors. These textual elements are far from random; they are a form of public expression, a running commentary on life, society, politics, and pop culture. They offer wisdom, humor, caution, or simply a shared sentiment that resonates with passengers.</p>
+            <p>This article decodes some of the common and most intriguing slogans found on Kenyan matatus. We analyze their origins, their meanings, and their impact on the public sphere. From "God's Time is the Best" to "No Vumbi," each phrase carries a story and reflects the collective consciousness of the streets. It's a unique, mobile form of literature and social commentary that's an intrinsic part of the matatu identity.</p>
+            <p>Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+        </div>
+        <div id="post6-content">
+             <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtlbnlhJTIwY29tbXVuaXR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=70" alt="Community on Wheels" class="full-post-image">
+            <h1 class="full-post-title">More Than A Ride: Matatus as Community Hubs</h1>
+             <p class="full-post-meta">By The Sociologist | October 9, 2023 | Category: Community</p>
+            <p>While their primary function is transportation, matatus in Kenya often transcend this role to become mobile community spaces. Within the confines of these colorful vehicles, strangers share moments, conversations spark, news is exchanged, and a temporary sense of camaraderie is forged. The shared journey, the music, and the close quarters can break down social barriers, leading to unexpected interactions.</p>
+            <p>This post explores the social dynamics within matatus. We look at how they serve as melting pots where people from diverse backgrounds cross paths. They are venues for public debate, spaces for collective laughter, and sometimes even platforms for impromptu acts of kindness. This aspect of matatu culture highlights their importance not just as a mode of transport, but as vital cogs in the social fabric of Kenyan urban life, fostering connections in a bustling world.</p>
+            <p>Cras ultricies ligula sed magna dictum porta. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+        </div>
+    </div>
+
+    <footer>
+        <!-- ... (Same footer as index.html) ... -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html" data-page="blog">Blog</a></li>
+                    <li><a href="gallery.html" data-page="gallery">Gallery</a></li>
+                    <li><a href="merch.html" data-page="merch">Merch</a></li>
+                    <li><a href="booking.html" data-page="booking">Book a Matatu</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@kituochamatatu.co.ke</p>
+                <p>Phone: +254 700 123 456</p>
+                <p>P.O. Box 12345 - 00100, Nairobi</p>
+            </div>
+            <div class="footer-section">
+                <h4>Find Us</h4>
+                <p>Matatu Terminal Hub, CBD</p>
+                <p>Nairobi, Kenya</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="https://via.placeholder.com/30x30/3b5998/FFFFFF?text=F" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="https://via.placeholder.com/30x30/E1306C/FFFFFF?text=I" alt="Instagram"></a>
+                    <a href="#" aria-label="Twitter"><img src="https://via.placeholder.com/30x30/1DA1F2/FFFFFF?text=T" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="current-year"></span> Kituo cha Matatu. All Rights Reserved.</p>
+            <p class="watermark">web app by Nuno</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Intersection Observer (same as other pages)
+        const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
+        const observerCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    const animationDelay = entry.target.dataset.delay;
+                    if(animationDelay) entry.target.style.transitionDelay = animationDelay;
+                    // observer.unobserve(entry.target); 
+                }
+            });
+        };
+        const scrollObserver = new IntersectionObserver(observerCallback, observerOptions);
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            const animationType = el.dataset.animation || 'fadeInUp-scroll';
+            el.classList.add(animationType);
+            scrollObserver.observe(el);
+        });
+
+        // Lightbox Functionality
+        const lightbox = document.getElementById('blog-lightbox');
+        const lightboxContentScrollable = lightbox.querySelector('.lightbox-content-scrollable');
+        const blogPostContents = document.getElementById('blog-post-contents');
+        const body = document.body;
+
+        document.querySelectorAll('.blog-preview-card .card-read-more, .blog-preview-card .card-image-container').forEach(trigger => {
+            trigger.addEventListener('click', function(event) {
+                event.preventDefault();
+                const card = this.closest('.blog-preview-card');
+                const blogId = card.dataset.blogId;
+                const fullPostContent = blogPostContents.querySelector(`#${blogId}-content`);
+
+                if (fullPostContent) {
+                    lightboxContentScrollable.innerHTML = fullPostContent.innerHTML;
+                    lightbox.setAttribute('aria-hidden', 'false');
+                    lightbox.classList.add('is-active');
+                    body.classList.add('no-scroll'); // Prevent body scrolling
+                }
+            });
+        });
+
+        lightbox.addEventListener('click', function(event) {
+            if (event.target.matches('[data-close-lightbox]')) {
+                lightbox.setAttribute('aria-hidden', 'true');
+                lightbox.classList.remove('is-active');
+                body.classList.remove('no-scroll');
+                lightboxContentScrollable.innerHTML = ''; // Clear content
+            }
+        });
+
+        // Close lightbox with ESC key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && lightbox.classList.contains('is-active')) {
+                lightbox.setAttribute('aria-hidden', 'true');
+                lightbox.classList.remove('is-active');
+                body.classList.remove('no-scroll');
+                lightboxContentScrollable.innerHTML = ''; // Clear content
+            }
+        });
+
+    </script>
+</body>
+</html>
