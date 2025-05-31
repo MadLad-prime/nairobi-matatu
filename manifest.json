@@ -1,0 +1,20 @@
+{
+    "name": "Kituo cha Matatu",
+    "short_name": "KCM",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4F6D92",
+    "icons": [
+        {
+            "src": "favicon.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "favicon.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        }
+    ]
+}
