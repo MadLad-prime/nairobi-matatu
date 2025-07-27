@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kituo cha Matatu </title>
+    <link rel="stylesheet" href="style_pink.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4F6D92">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="nav-logo animate-on-load" style="animation-name: fadeInLeft;">KCM</a>
+            <div class="nav-links-center">
+                <a href="blog.html" data-page="blog" class="animate-on-load" style="animation-name: fadeInDown; animation-delay: 0.2s;">Blog</a>
+                <a href="gallery.html" data-page="gallery" class="animate-on-load" style="animation-name: fadeInDown; animation-delay: 0.4s;">Gallery</a>
+                <a href="merch.html" data-page="merch" class="animate-on-load" style="animation-name: fadeInDown; animation-delay: 0.6s;">Merch</a>
+            </div>
+            <a href="booking.html" data-page="booking" class="nav-cta animate-on-load" style="animation-name: fadeInRight; animation-delay: 0.2s;">Book Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <!-- Removed video embed -->
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="animate-on-load hero-title" style="animation-name: fadeInUp; animation-delay: 0.5s;">Kituo cha Matatu</h1>
+            </div>
+        </section>
+
+        <section id="latest-blog" class="content-section">
+            <h2 class="animate-on-scroll" data-animation="fadeInUp-scroll">Latest From The Blog</h2>
+            <div class="blog-grid">
+                <!-- Blog Card 1 (Hardcoded) -->
+                <div class="blog-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.1s" data-blog-id="1">
+                    <img src="images/hb1.jpg" alt="Blog Post Image 1">
+                    <div class="blog-card-content">
+                        <h3>The Evolution of Matatu Art</h3>
+                        <p>A brief dive into how the iconic designs on Kenyan matatus have changed over the decades...</p>
+                        <a href="blog.html" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Card 2 (Hardcoded) -->
+                <div class="blog-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.3s" data-blog-id="2">
+                    <img src="images/hb2.jpg" alt="Blog Post Image 2">
+                    <div class="blog-card-content">
+                        <h3>Nganya Beats: The Soundtrack of Nairobi</h3>
+                        <p>Explore the music culture that powers the matatu experience, from local hits to international bangers...</p>
+                        <a href="blog.html" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Card 3 (Hardcoded) -->
+                <div class="blog-card animate-on-scroll" data-animation="fadeInUp-scroll" data-delay="0.5s" data-blog-id="3">
+                    <img src="images/hb3.jpg" alt="Blog Post Image 3">
+                    <div class="blog-card-content">
+                        <h3>Navigating Nairobi: Top Matatu Routes</h3>
+                        <p>Your guide to understanding the most popular and scenic matatu routes in the city...</p>
+                        <a href="blog.html" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container animate-on-scroll" data-animation="fadeInUp-scroll">
+                <a href="blog.html" data-page="blog" class="btn-secondary">View All Posts</a>
+            </div>
+        </section>
+
+        <section id="about-us" class="content-section">
+            <h2 class="animate-on-scroll" data-animation="fadeInUp-scroll">About Kituo cha Matatu</h2>
+            <div class="about-content">
+                <img src="images/ab.jpg" alt="About Us Image" class="about-image animate-on-scroll" data-animation="fadeInLeft-scroll">
+                <div class="about-text animate-on-scroll" data-animation="fadeInRight-scroll">
+                    <p>Karibu! Kituo cha Matatu is your digital hub for everything related to the vibrant and dynamic matatu culture of Kenya. Born from a passion for the art, the music, the hustle, and the sheer energy of these iconic vehicles, we aim to celebrate and share this unique aspect of Kenyan life with the world.</p>
+                    <p>From booking your next ride to exploring stunning graffiti art in our gallery, catching up on the latest matatu news on our blog, or grabbing some exclusive KCM merch, we've got you covered. We're more than just a website; we're a community passionate about keeping the matatu spirit alive and thriving.</p>
+                    <p>Join us as we explore the routes, the stories, and the soul of Kenya's public transport kings!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html" data-page="blog">Blog</a></li>
+                    <li><a href="gallery.html" data-page="gallery">Gallery</a></li>
+                    <li><a href="merch.html" data-page="merch">Merch</a></li>
+                    <li><a href="booking.html" data-page="booking">Book a Matatu</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@kituochamatatu.co.ke</p>
+                <p>Phone: +254 700 123 456</p>
+                <p>P.O. Box 12345 - 00100, Nairobi</p>
+            </div>
+            <div class="footer-section">
+                <h4>Find Us</h4>
+                <p>Matatu Terminal Hub, CBD</p>
+                <p>Nairobi, Kenya</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="current-year"></span> Kituo cha Matatu. All Rights Reserved.</p>
+            <p class="watermark" style="color: #4F6D92;">web app by Nuno</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            root: null, // observes intersections relative to the viewport
+            rootMargin: '0px',
+            threshold: 0.1 // 10% of the item is visible
+        };
+
+        const observerCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    const animationDelay = entry.target.dataset.delay;
+                    if(animationDelay) {
+                        entry.target.style.transitionDelay = animationDelay;
+                    }
+                    // Optional: Unobserve after animation to save resources
+                    // observer.unobserve(entry.target); 
+                }
+                // Optional: else { entry.target.classList.remove('is-visible'); } // Re-animate on scroll up
+            });
+        };
+
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+        const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+        elementsToAnimate.forEach(el => {
+            const animationType = el.dataset.animation || 'fadeInUp-scroll'; // Default animation
+            el.classList.add(animationType); // Add the specific animation class for initial state
+            observer.observe(el);
+        });
+
+        // For links - this basic structure for dynamic page loading would go here later
+        /*
+        document.querySelectorAll('nav a[data-page], .blog-grid a.read-more-btn, .view-all-container a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                // ... (same conceptual dynamic loading logic)
+            });
+        });
+        */
+
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js")
+                .then((registration) => {
+                    console.log("Service Worker registered with scope:", registration.scope);
+                })
+                .catch((error) => {
+                    console.error("Service Worker registration failed:", error);
+                });
+        }
+
+        let deferredPrompt;
+
+        // Listen for the beforeinstallprompt event
+        window.addEventListener("beforeinstallprompt", (event) => {
+            // Prevent the default mini-infobar from appearing
+            event.preventDefault();
+            // Save the event for later use
+            deferredPrompt = event;
+
+            // Show a custom install button or prompt
+            const installButton = document.createElement("button");
+            installButton.textContent = "Install App";
+            installButton.style.position = "fixed";
+            installButton.style.bottom = "20px";
+            installButton.style.right = "20px";
+            installButton.style.padding = "10px 20px";
+            installButton.style.backgroundColor = "#4F6D92";
+            installButton.style.color = "#fff";
+            installButton.style.border = "none";
+            installButton.style.borderRadius = "5px";
+            installButton.style.cursor = "pointer";
+            document.body.appendChild(installButton);
+
+            // Handle the install button click
+            installButton.addEventListener("click", () => {
+                // Show the install prompt
+                deferredPrompt.prompt();
+                // Wait for the user to respond to the prompt
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === "accepted") {
+                        console.log("User accepted the install prompt");
+                    } else {
+                        console.log("User dismissed the install prompt");
+                    }
+                    // Clear the deferredPrompt variable
+                    deferredPrompt = null;
+                    // Remove the install button
+                    installButton.remove();
+                });
+            });
+        });
+    </script>
+</body>
+</html>
